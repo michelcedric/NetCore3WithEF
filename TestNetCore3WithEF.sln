@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNetCore3WithEF", "TestNetCore3WithEF\TestNetCore3WithEF.csproj", "{A10A78C4-CE76-4E03-BFF4-0DF69C9EC52C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A10A78C4-CE76-4E03-BFF4-0DF69C9EC52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10A78C4-CE76-4E03-BFF4-0DF69C9EC52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10A78C4-CE76-4E03-BFF4-0DF69C9EC52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10A78C4-CE76-4E03-BFF4-0DF69C9EC52C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7F19F83-53AA-4896-93F5-CCBECD9DDCB2}
+	EndGlobalSection
+EndGlobal
