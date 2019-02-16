@@ -1,24 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using TestNetCore3WithEF.Data;
 using TestNetCore3WithEF.Models;
 
 namespace TestNetCore3WithEF.Controllers
 {
     public class HomeController : Controller
     {
-        private ApplicationDbContext _applicationDbContext;
 
-        public HomeController(ApplicationDbContext applicationDbContext)
+        public HomeController()
         {
-            _applicationDbContext = applicationDbContext;
+
         }
 
         public IActionResult Index()
         {
-
-            _applicationDbContext.Students.Add(new Student { Name = "Cedric" });
-            _applicationDbContext.SaveChanges();
             return View();
         }
 

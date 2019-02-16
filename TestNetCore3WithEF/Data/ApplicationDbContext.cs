@@ -9,7 +9,12 @@ namespace TestNetCore3WithEF.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            Database.EnsureCreated();
+        }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>().HasAlternateKey(b => b.Id);
         }
     }
 }
